@@ -1,0 +1,7 @@
+public class OutOfMemoryExample {
+    public static void main(String[] args) {
+        int[] hugeArray = new int[Integer.MAX_VALUE]; // Attempt to allocate a massive array
+    }
+}
+
+// So here this code will try to create array with int.max_value which is large no. So this will trigger the OutOfMemoryError.
